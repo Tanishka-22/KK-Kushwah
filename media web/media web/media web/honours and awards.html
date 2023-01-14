@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            padding: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+            height: 75%;
+            width: 100%;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <center>
+            <h1>
+                HONUORS AND AWARDS
+            </h1>
+        </center>
+    </div>
+    <BR><BR>
+    <div>
+        <p align="justify">
+            I have expressed my interests in a vast number of areas of physics and one such interest in Nanotechnology
+            resulted in me securing some positions such as sixth place 3rd Nanotechnology Virtual Nano Poster
+            Conference,
+            Nanopaprika, Budapest, Hungary, 22 sep. 2013 and second place in the consecutive year.
+            Certain participation also helped me bag second position in Poster presentation at National science day
+            celebration-2012 organized by M.P. Council of Science & Technology at University level.
+            and secured Ist Rank in Pre Ph.D. Physics Examination at University teaching 
+            department according to UGC regulation 2009.
+             I was awarded Certificate of Excellence in Vidhan-sabha and Lok Sabha Election -2013, 
+            2014 and 2018 by Collector, Jabalpur and certificate of appreciation for Best reviewer for ICE POE  2019.
+
+            I worked as Resource person in Anveshika Vigyan Prasar Yojana running by Prof. 
+
+            H. C. Verma IIT Kanpur and as lecturer by rotation in BOS OF APPLIED PHYSICS at State level for RGPV Bhopal
+            MP.
+
+            I was conferred with “BEST TEACHER AWARD” on 26 Jan 2007 by Malwa Institute 
+
+            of Technology. 
+
+
+
+            Through the length of my on-going career, my involvements and engagement in a vast number of organisations
+            and
+            events, i received certificates such as
+
+            -Certificate of Appreciation by Dr. Harisingh Gour University, Central University, Sagar for Conference
+            Poster/
+            oral evaluation
+
+            -Certificate of Appreciation by IIT Indore for conduction for Pre Conference
+
+            -Certificate of Excellence by Principal Jabalpur Engg. College on 26 Jan. 2022.
+
+            -Certificate of Excellence by Collector Jabalpur on 25 Jan. 2022
+
+            - Working as Head of Department, Applied Physics, Jabalpur Engineering College, 
+
+            Jabalpur, MP
+
+            -Excellent certificate in Mooc course by IIT Kanpur.
+        </p>
+    </div>
+    <br><br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="image/pic1.jfif" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="image/pic1.jfif" style="width:100%">
+        </div>
+
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <br>
+    <br>
+
+    <div>
+        <p align="justify">
+            26 जनवरी 2019, भारत महापर्व को शहीद स्मारक जबलपुर में विधानसभा निर्वाचन 2018 में उत्कृष्ट कार्य के लिए
+            जबलपुर
+            जिले की कलेक्टर मैडम छवि भारद्वाज के द्वारा सम्मानित किया गया। आदरणीय कलेक्टर मैडम एवम प्रशासन को धन्यवाद।
+        </p>
+    </div>
+    <script>
+        var slideshowContainers = document.getElementsByClassName("slideshow-container");
+        /* For each container get starting variables */
+        for (let s = 0; s < slideshowContainers.length; s++) {
+            /* Read the new data attribute */
+            var cycle = 5000;
+            /* Find all the child nodes with class mySlides */
+            var slides = slideshowContainers[s].querySelectorAll('.mySlides');
+            var slideIndex = 0;
+            /* Now we can cycle slides, but this recursive function must have parameters */
+            /* slides and cycle never change, those are unique for each slide container */
+            /* slideIndex will increase during each iteration */
+            showSlides(slides, slideIndex, cycle);
+        };
+        9
+        /* Function is alsmost same, but now it uses 3 new parameters */
+        function showSlides(slides, slideIndex, cycle) {
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            };
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            };
+            slides[slideIndex - 1].style.display = "block";
+            /* Calling same function, but with new parameters and cycle time */
+            setTimeout(function () {
+                showSlides(slides, slideIndex, cycle)
+            }, cycle);
+        };
+    </script>
+
+</body>
+
+</html>

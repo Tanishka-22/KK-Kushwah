@@ -1,0 +1,47 @@
+#bannerimg {
+    width: 100%;
+  }
+  .item {
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+  }
+  #banner {
+    padding: 5px;
+    width: 45% !important;
+    margin-right: 30px !important;
+    margin-left: 50px !important;
+    margin-top: 5px !important;
+    left: 30px !important;
+  }
+  .content{
+    width: 45%;
+    font-size: 17px;
+  }
+#side-slider-sec{
+    display: flex;
+    margin: 10px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

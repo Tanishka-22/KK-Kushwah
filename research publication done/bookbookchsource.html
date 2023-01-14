@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Professor</title>
+    <link rel="stylesheet" href="headfoot.css" />
+    <link rel="stylesheet" href="css/table.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="bookbookch.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">   
+  <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"> </script>  
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <div id="background">
+    <div id="hex1" class="hexagon"></div>
+    <div id="hex2" class="hexagon"></div>
+  </div>
+
+    <!--?--------------------------------------------- Landing Page ----------------------------------------------->
+    <div id="background">
+      
+    </div>
+    
+    <header>
+      <h1 id="KamalKumar">DR.KAMAL KUMAR KUSHWAH</h1><h6 id="professor">Professor Of Physics</h6>
+      <hr id="hr">
+      <div class="Navigation">
+        <div id="NavButtonsContainer" class="sticky">
+          <a href="../index.html"><div id="navbuts">Home</div></a><label  style="font-size: 20px; font-stretch: 100%; font-weight: 200" >|</label>
+         <!-- dropdown -->
+         <a href="#"><div id="navbuts" data-dropdown-button>Research & Publications  
+          <img id="arrow" src="logosfooter/expand_less_FILL0_wght400_GRAD0_opsz48.png" alt=""></div></a>
+        <div id="dropmeow" data-visible="X" data-dropdown >
+          <ul >
+            <a href="bookbookchsource.html"><li id="droppers">Book and book chapters</li></a>
+            <a href="international.html"><li id="droppers">International journals</li></a>
+            <a href="patents.html"><li id="droppers">Patents</li></a>
+            <a href="extproject.html"><li id="droppers">External projects and PhD supervision</li></a>
+            <a href="pgprojects1.html"><li id="droppers">Pg projects and research supervision</li></a>
+          </ul>
+        </div>
+        <label  style="font-size: 20px; font-stretch: 50%; font-weight: 200;" >|</label>
+        <!-- dropdown end-->
+          <a href="#"><div id="navbuts">Media</div></a><label style="font-size: 21px; font-stretch: 50%; font-weight: 200;" >|</label>
+          <a href="#"><div id="navbuts">Lab Resources</div></a><label style="font-size: 20px; font-stretch: 50%; font-weight: 200;" >|</label>
+          <a href="#"><div id="navbuts">Research Collaborative Group</div></a><label style="font-size: 20px; font-stretch: 50%; font-weight: 200;" >|</label>
+          <a href="#"><div id="navbuts">Social Activities</div></a><label style="font-size: 20px; font-stretch: 50%; font-weight: 200;" >|</label>
+          <a href="#"><div id="navbuts">Contact</div></a>
+
+        </div>
+      </div>
+      <hr id="hr">
+      <div class="landing-divs" style="z-index: -999;"></div>
+      </header>
+   <!--??--------------------------------------------- Main content ----------------------------------------------->
+    
+    <main>
+      <div class="container">  
+          <div class="row py-5">  
+            <div class="col-12">  
+              <table id="example" class="table table-hover responsive" style="width:100%">  
+                <thead>  
+                  <h1> Research & Publications </h1> 
+                  <h3>Book & Book chapters</h3> 
+                  <tr>  
+                    <th>S.No.</S></th>  
+                    <th>Title of Book/Chapter</th>                       
+                    <th>Authors</th>  
+                    <th>Book Name</th>  
+                    <th>Name of Publisher</th>  
+                    <th>Page, Volume,Year</th>
+                    <th>Link</th> 
+                  </tr>  
+                </thead>  
+                <tbody id="booktbody">  
+                   <!-- append table data -->
+                  
+                </tbody>  
+              </table>  
+            </div>  
+          </div>  
+        </div>
+   
+        
+    <!-------------YAHA LIKHNE CODES------------------------------>
+      <!--?--------------------------------------------- Footer ----------------------------------------------->
+      <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    <footer id="footer">
+      <div><img  width="40px" src="https://professorsite1.netlify.app/Images/pin_drop_FILL0_wght400_GRAD0_opsz48.png" alt="">
+      <h3>Address</h3>
+      <label>Q.N. E-4, Jec Staff Colony, Gokalpur, Jabalpur (M.P.) 482011</label>
+      </div>
+      <div><img  width="40px" src="https://professorsite1.netlify.app/Images/call_FILL0_wght400_GRAD0_opsz48.png" alt="">
+      <h3>Phone</h3>
+      <label>09826668891, <br>07987488829</label>
+      </div>
+       <div><img width="40px"  src="https://professorsite1.netlify.app/Images/mail_FILL0_wght400_GRAD0_opsz48.png" alt="">
+      <h3>Email</h3>
+      <label>Kamal_kushwah2005@yahoo.com<br>
+        kkushwaha@jecjabalpur.ac.in
+        </label>
+      </div>
+       <div><img width="40px"  src="https://professorsite1.netlify.app/Images/link_FILL0_wght400_GRAD0_opsz48.png" alt="">
+      <h3>Connect</h3>
+      <div id="footlogos">
+        <div><a href="#"><img src="logosfooter\fb.png" alt="" /></a></div>
+        <div><a href="#"><img src="logosfooter\insta.png" alt="" /></a></div>
+        <div><a href=""><img src="logosfooter\linkedin.png" alt="" /></a></div>
+        <div><a href=""><img src="logosfooter\twitter.png" alt="" /></a></div>
+      </div>
+      <label>links</label>
+      </div>
+    </footer>
+  </body>
+  </notprettier>
+</html>
+<script src="js/index.js"></script>
+<script src="js/book.js"></script>
+<script src="js/common.js"></script>
