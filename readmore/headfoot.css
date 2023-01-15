@@ -1,0 +1,361 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  body{
+    background-image: url("istockphoto-16.jpg") !important;
+    background-size: 100% 90% !important;
+    background-repeat: no-repeat;
+  }
+  .test {
+    margin: 20px auto;
+    min-height: 500px;
+  }
+  
+  /* div,
+  section {
+    border: 1px solid black;
+  } */
+  
+  section {
+    margin: 300px auto;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /*? <!----------------------------------------------- < Landing Page > -----------------------------------------------> */
+  header {
+    margin: 0px 15px;
+  }
+  #KamalKumar {
+    font-weight: normal;
+    font-size: 65px;
+    font-family: Mongolian Baiti;
+    font-weight: 50;
+  }
+  #professor {
+    margin: 5px;
+    font-size: 19.5px;
+    font-family: serif;
+    font-weight: lighter;
+  }
+  #Landing { 
+    position: relative;
+    padding: 5px;
+    margin: 80px 15px;
+  }
+  .landing-divs {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    padding: 5px 15px;
+  }
+  .landing-divs > div {
+    height: 480px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  #calender{
+    position: absolute;
+    top: 446px;
+    right: 21px;
+    width: 29%;
+    background-color: #236b8e;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: #f7f7f9;
+    text-shadow: 3px 3px 6px rgb(46, 20, 24);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  #spotlights {
+    position: absolute;
+    top: 46.7px;
+    right: 28px;
+    height: 395px;
+    padding: 10px 28px;
+    width: 28%;
+    overflow-y: scroll;
+    background-color: #f7f7f9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  #spotlight-head {
+    position: absolute;
+    top: 203.5px;
+    right: 46px;
+    width: 27%;
+    font-size: 25px;
+    padding: 4px 10px;
+    /* background-color: rgba(255, 255, 224, 0.749); */
+    background-color: #e8dcd5;
+    text-align: center;
+    /* color: rgb(38, 127, 236); */
+    color: rgb(117, 118, 119);
+    box-shadow: rgba(0, 0, 0, 0.06) 2px 8px 7px 2px inset;
+  }
+  #spotlight-head > p {
+    margin: 0px;
+  }
+  /* ::-webkit-scrollbar {
+    display: none;
+  } */
+  #bannerimg {
+    width: 100%;
+  }
+  .item {
+    height: 470px;
+    object-position: center;
+    object-fit: cover;
+  }
+  #banner {
+    padding: 5px;
+    width: 67.5%;
+    margin: 0px;
+    left: 30px !important;
+  }
+  
+  ul {
+    margin-left: 15px;
+  }
+  .Navigation {
+    width: 100%;
+    align-self: center;
+  }
+  
+  #NavButtonsContainer.sticky {
+    position: sticky;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px 3px;
+    background-color: #236b8e;
+  }
+  
+  #navbuts {
+    cursor: pointer;
+    padding: 0px 10px 0px;;
+    padding-bottom: 0px;
+    border-bottom: 3px solid transparent;
+    color: rgb(220, 220, 226);
+    font-size: 15px;
+    transition: all 200ms linear;
+  }
+  #navbutlabels {
+    padding: 2px 10px 4px;;
+    padding-bottom: 0px;
+    border-bottom: 3px solid transparent;
+    color: rgb(42, 42, 44);
+    font-size: 16px;
+    transition: all 200ms linear;
+  }
+  #navbuts:hover {
+    text-decoration: underline;
+    text-shadow: rgb(114, 113, 113) 0.5px 0 2px;
+    color: rgb(234, 241, 234);
+  }
+  /*? <!----------------------------------------------- < Profile Section > -----------------------------------------------> */
+  .sectionbg {
+    z-index: -1;
+    font-size: 175px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: absolute;
+    color: rgba(103, 185, 252, 0.2);
+    top: -70px;
+    right: 86px;
+  }
+  #main-image {
+    position: absolute;
+    top: 65px;
+    left: 130px;
+    width: 380px;
+    height: 500px;
+    background-image: url("profile pic.jpeg");
+    box-shadow: rgba(46, 162, 240, 0.4) 5px 5px, rgba(46, 153, 240, 0.3) 10px 10px,
+      rgba(46, 111, 240, 0.2) 15px 15px, rgba(46, 143, 240, 0.1) 20px 20px,
+      rgba(46, 198, 240, 0.05) 25px 25px;
+    background-size: cover;
+    background-position: center;
+  }
+  #Landing > div {
+    display: flex;
+    justify-content: right;
+  }
+  #Profile {
+    padding: 5px 70px;
+    margin-top: 80px;
+    width: 57%;
+  }
+  #hello {
+    font-size: 40px;
+  }
+  #logos {
+    width: 20em;
+    display: flex;
+    justify-content: left;
+  }
+  #logos div {
+    cursor: pointer;
+    margin: 6px;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: all 350ms ease;
+  }
+  #logos div:hover,
+  .footerimgs div:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(221, 73, 9);
+    box-shadow: rgba(209, 206, 206, 0.24) 0px 3px 8px;
+  }
+  #logos img {
+    width: 20px;
+  }
+  /*? <!----------------------------------------------- < Experience > -----------------------------------------------> */
+  
+  #experience {
+    position: relative;
+    margin: 20px 80px;
+    margin-top: 160px;
+    padding: 30px 40px;
+    background-color: rgb(247,247,249);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  
+  /*? <!----------------------------------------------- < Disciplines > -----------------------------------------------> */
+  
+  #Disciplines {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  #Disciplines > div {
+    padding: 20px 40px;
+    margin-right: 18px;
+    background-color:rgb(247,247,249);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  #disps {
+    margin: 0px;
+    color: rgb(24, 24, 193);
+  }
+  /*? <!----------------------------------------------- < Connect Section > -----------------------------------------------> */
+  
+  #connect {
+    margin: auto;
+    margin-bottom: 0px;
+    background: rgba(20, 75, 131, 0.559);
+    min-height: 200px;
+    width: 100%;
+  }
+  #letusconnect {
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+  }
+  .connectsection {
+    display: flex;
+    justify-content: center;
+  }
+  .connectsection > div {
+    margin: 10px 20px;
+  }
+  .connectsection > div:nth-child(2) {
+    padding-bottom: 30px;
+    position: relative;
+  }
+  .connectsection input {
+    width: 205px;
+    padding: 7px 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+  }
+  .connectsection textarea {
+    padding: 7px 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin: 1px auto;
+  }
+  .connectsection label {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 10px;
+  }
+  #email {
+    width: 435px;
+  }
+  #submit-button {
+    border-radius: 50px;
+    bottom: 0px;
+    right: 5px;
+    width: 25%;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(22, 65, 82);
+    margin: 5px 10px;
+    position: absolute;
+    padding: 10px 30px;
+  }
+  /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
+  #footer {
+    margin: 0px;
+    margin-top: 0px;
+    background: rgba(170, 161, 161, 0.559);
+    min-height: 200px;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #footer > div {
+    border: 3px solid white;
+    margin: 10px;
+    padding: 35px;
+    min-height: 100px;
+    width: 23%;
+    text-align: center;
+  }
+  #footer h3 {
+    margin: 3px;
+  }
+  #footer label {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 500;
+  }
+  #logosf {
+    width: 20em;
+    display: flex;
+    justify-content: center;
+  }
+  #logosf div {
+    cursor: pointer;
+    margin: 6px;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: all 350ms ease;
+  }
+  #logosf div:hover,
+  .footerimgs div:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(26, 25, 25);
+    box-shadow: rgba(209, 206, 206, 0.24) 0px 3px 8px;
+  }
+  #logosf img {
+    width: 20px;
+  }
+ 
