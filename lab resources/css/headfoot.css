@@ -10,6 +10,12 @@
 
     background-repeat: no-repeat;
   }
+  #hr {
+    border-top: 2px solid rgb(154, 154, 156);
+    margin: 7px;
+    color: blue;
+    width: 100%;
+  }
   .test {
     margin: 20px auto;
     min-height: 500px;

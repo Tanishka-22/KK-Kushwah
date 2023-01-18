@@ -9,9 +9,13 @@ body {
 p {
   font-size: 18px;
 }
+#honours{
+  font-size: 47px;
+}
 
 .mySlides {
   display: none;
+  margin-top: 15px;
 }
 
 .slideshow-container > img {

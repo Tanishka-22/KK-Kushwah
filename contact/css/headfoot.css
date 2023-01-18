@@ -6,7 +6,7 @@
   }
   body{
     background-image: url("pictures/istockphoto-16.jpg") !important;
-    background-size: 100% 16.73% !important;
+    background-size: 100% 14.2% !important;
     background-repeat: no-repeat;
   }
   .test {
@@ -110,6 +110,7 @@
     min-height: 200px;
     width: 98%;
     margin-left: 1%;
+    margin-top: 0px;
   }
   #letusconnect {
     font-size: 90px;

@@ -52,6 +52,9 @@
 #list{
     color: #1388cc;
 }
+.content{
+    justify-content: center;
+}
 
 #box{
     background-color: #fafafa;
