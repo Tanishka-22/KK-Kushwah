@@ -15,6 +15,12 @@ body {
   color: blue;
   width: 100%;
 }
+#jeclogo{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  margin-left: 5px;
+}
 .test {
   margin: 20px auto;
   min-height: 500px;
@@ -86,7 +92,7 @@ header {
 #Landing {
   position: relative;
   padding: 5px;
-  margin: 80px 15px;
+  margin: 70px 15px;
 }
 .landing-divs {
   width: 70%;
@@ -104,10 +110,9 @@ header {
 
 #calender {
   position: absolute;
-  top: 640px;
-
-  right: 30px;
-  width: 28%;
+  top: 653px;
+  right: 27px;
+  width: 28.2%;
   background-color: #236b8e;
   height: 50px;
   text-align: center;
@@ -120,8 +125,8 @@ header {
 }
 #spotlights {
   position: absolute;
-  top: 250px;
-  right: 30px;
+  top: 259px;
+  right: 28px;
   height: 395px;
   padding: 10px 28px;
   width: 28%;
@@ -138,7 +143,7 @@ header {
 
 #spotlight-head {
   position: absolute;
-  top: 207px;
+  top: 219px;
   right: 28px;
   width: 28.1%;
   font-size: 25px;

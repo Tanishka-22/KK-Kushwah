@@ -10,6 +10,12 @@
   color: blue;
   width: 100%;
 }
+#jeclogo{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  margin-left: 5px;
+}
 body {
   background-image: url("istockphoto-16.jpg") !important;
   background-size: cover;

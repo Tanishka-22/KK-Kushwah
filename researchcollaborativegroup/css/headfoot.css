@@ -15,6 +15,13 @@
     color: blue;
     width: 100%;
   }
+  
+  #jeclogo{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+  }
   .test {
     margin: 20px auto;
     min-height: 500px;

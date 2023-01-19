@@ -2,7 +2,7 @@
     width: 100%;
   }
   .item {
-    height: 400px;
+    height: 100px;
     object-position: center;
     object-fit: cover;
   }

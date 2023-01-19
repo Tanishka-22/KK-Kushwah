@@ -6,8 +6,20 @@
   }
   body{
     background-image: url("pictures/istockphoto-16.jpg") !important;
-    background-size: 100% 14.2% !important;
+    background-size: 100% 15.5% !important;
     background-repeat: no-repeat;
+  }
+  #hr {
+    border-top: 2px solid rgb(154, 154, 156);
+    margin: 7px;
+    color: blue;
+    width: 100%;
+  }
+  #jeclogo{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
   }
   .test {
     margin: 20px auto;
@@ -169,7 +181,7 @@
   /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
   #footer {
     margin: auto;
-    margin-top: 80px;
+    margin-top: 10px;
     background: rgba(170, 161, 161, 0.559);
     min-height: 200px;
     width: 100%;
@@ -195,7 +207,7 @@
     font-weight: 500;
   }
   #logos {
-    width: 20em;
+    width: 15em;
     display: flex;
     justify-content: center;
   }
