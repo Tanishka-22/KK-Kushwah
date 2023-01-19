@@ -1,20 +1,17 @@
 const person = [{
-    Nameoftheprincipalinvestigator: "Dr. M.Vijayakumar",
-    Nameofthecoprincipalinvestigator: "Dr. Kamal Kumar Kushwaha",
+    Fundingagency: "National Project Implementation Unit (NPIU), Government of India",
     Cost: "17.93 LAKHS",
-    Subjectandprojectid: "Luminescent Solar Concentrators"
+    Title: "Luminescent Solar Concentrators"
 },
 {
-    Nameoftheprincipalinvestigator: "Dr. K.Ugendar",
-    Nameofthecoprincipalinvestigator: "Dr. Bhavana Singh",
+    Fundingagency: "National Project Implementation Unit (NPIU), Government of India",
     Cost: "17.48 LAKHS",
-    Subjectandprojectid: "Proximity Effects in Ferrities"
+    Title: "Proximity Effects in Ferrities"
 },
 {
-    Nameoftheprincipalinvestigator: "Dr.Jaidev",
-    Nameofthecoprincipalinvestigator: "Dr. Durgesh Nandini Nagwanshi",
+    Fundingagency: "National Project Implementation Unit (NPIU), Government of India",
     Cost: "12.42 LAKHS",
-    Subjectandprojectid: "Super Capacitor and Hydrogen Gas Sensors"
+    Title: "Super Capacitor and Hydrogen Gas Sensors"
 },
 ];
 var data;
@@ -28,10 +25,9 @@ person.forEach(function (item, index) {
         <p class="font-weight-bold mb-0">'+ ind + '</p>\
     </div>\
 </td>\
-<td>'+ item.Nameoftheprincipalinvestigator + '</td>\
-<td>'+ item.Nameofthecoprincipalinvestigator + '</td>\
+<td>'+ item.Title+ '</td>\
+<td>'+ item.Fundingagency + '</td>\
 <td>'+ item.Cost + '</td>\
-<td>'+ item.Subjectandprojectid + '</td>\
 </tr>';
     $('#extprojectstbody').append(data);
 });

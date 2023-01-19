@@ -1,4 +1,12 @@
 const person = [{
+    title: "Machine Learning in Additive Manufacturing",
+    link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527835478.ch21",
+    author: "Hameed Khan, Kamal Kumar Kushwah, Saurabh Singh, Jitendra S. Thakur, Kishore Kumar Sadasivuni",
+    bookname: "Nanotechnology Based Additive Manufacturing:Product Design, Properties and Applications, Vol.2",
+    publisher: "WILEY Publication",
+    vol: "ISBN 978-3-52783-547-8 Pages:601(BOOK)"
+},
+{
     title: "Advanced Research Methodologies: Artificial Intelligence as an Operation Tool",
     link: "https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=nS10A1EAAAAJ&sortby=title&citation_for_view=nS10A1EAAAAJ:HoB7MX3m0LUC",
     author: "Kishore Kumar Sadasivuni,Kamal Kumar Kushwah,Hameed Khan,SadiyaWasim",

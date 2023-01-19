@@ -1,6 +1,15 @@
 const inter = [
   {
     title:
+      "Design and Analyses of Xcos Stimulation Model for On-Axis Planar Unmodulator Radiation",
+    link: "https://ieeexplore.ieee.org/abstract/document/9961150/",
+    author:
+      "Kamal Kumar Kushwah, Hussain Jeevakhan, Mahazbeen Sayed",
+    internationaljournal: "IEEE Transactions on Plasma Science",
+    yearofpublication: "2023 ",
+  },
+  {
+    title:
       "Investigating the impact of using a ND-PCM on the thermal management of solar PV panels",
     link: "https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=nS10A1EAAAAJ&pagesize=80&sortby=title&citation_for_view=nS10A1EAAAAJ:SeFeTyx0c_EC",
     author:

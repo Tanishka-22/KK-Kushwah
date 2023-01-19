@@ -2,9 +2,8 @@
     width: 100%;
   }
   .item {
-    height: 100px;
     object-position: center;
-    object-fit: cover;
+    object-fit: contain;
   }
   #banner {
     padding: 5px;

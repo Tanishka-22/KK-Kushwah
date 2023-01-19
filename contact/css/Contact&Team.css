@@ -28,8 +28,8 @@
     /* height: 250px; */
     /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
     /* border-radius: 50%; */
-    margin-right: 8px;
-    margin-left: 8px;
+    margin-right: 10px;
+    margin-left: 9px;
     justify-items: center;
   }
   .name{
@@ -45,10 +45,25 @@
   }
   .pics{
     border-radius: 50%;
-    width: 210px;
-    height: 270px;
+    width: 190px;
+    height: 220px;
   }
   .social-media{
      margin-bottom: 3px !important;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
