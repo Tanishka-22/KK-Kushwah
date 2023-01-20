@@ -21,11 +21,10 @@ a {
 /*? <!----------------------------------------------- < Dropdown > -----------------------------------------------> */
 
 #dropmeow {
-  display: none;
+  /* display: none; */
   position: absolute;
   transition: all 300ms ease;
   z-index: 999999999999999999;
-  margin-left: 16%;
 }
 #dropmeow > ul {
   width: 280px;

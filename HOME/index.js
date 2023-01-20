@@ -1,8 +1,3 @@
-var loader = document.querySelector("#preloader");
-window.addEventListener("load", function () {
-  loader.style.display = "none";
-});
-
 document.addEventListener("click", (e) => {
   const ddbtn = e.target.matches("[data-dropdown-button]");
   console.log(dropmeow.dataset.visible);
