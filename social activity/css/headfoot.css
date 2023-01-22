@@ -16,11 +16,18 @@ body {
   color: blue;
   width: 100%;
 }
-#jeclogo{
-  position: relative;
-  height: 35px;
-  width: 35px;
-  margin-left: 5px;
+/* ---------------------------jec-logo------------------------ */
+.top-content{
+  display: flex;
+  
+}
+
+.jec-logo {
+  width: 9.4% !important;
+  position: absolute;
+  right: 25px;
+  padding: 5px;
+  margin-top: 7px;
 }
 .test {
   margin: 20px auto;
@@ -50,7 +57,7 @@ header {
 }
 #KamalKumar {
   font-weight: normal;
-  font-size: 65px;
+  font-size: 63.65px;
   font-family: Mongolian Baiti;
   font-weight: 50;
 }
@@ -121,19 +128,6 @@ ul {
   text-shadow: rgb(114, 113, 113) 0.5px 0 2px;
   color: rgb(234, 241, 234);
 }
-/*? <!----------------------------------------------- < Profile Section > -----------------------------------------------> */
-
-
-/*? <!----------------------------------------------- < Experience > -----------------------------------------------> */
-
-
-
-/*? <!----------------------------------------------- < Disciplines > -----------------------------------------------> */
-
-
-
-/*? <!----------------------------------------------- < Connect Section > -----------------------------------------------> */
-
 
 /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
 html {
@@ -168,7 +162,7 @@ html {
   align-items: center;
 }
 #logosf {
-  width: 10em;
+  width: 20em;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -192,7 +186,7 @@ html {
 }
 
 #footlogos {
-  width: 20em;
+  width: 16em;
   display: flex;
   justify-content: center;
 }

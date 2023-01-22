@@ -15,12 +15,19 @@
     color: blue;
     width: 100%;
   }
-  #jeclogo{
-    position: relative;
-    height: 35px;
-    width: 35px;
-    margin-left: 5px;
-  }
+  /* ---------------------------jec-logo------------------------ */
+.top-content{
+  display: flex;
+  
+}
+
+.jec-logo {
+  width: 7% !important;
+  position: absolute;
+  right: 25px;
+  padding: 5px;
+  margin-top: 5px;
+}
   .test {
     margin: 20px auto;
     min-height: 500px;
@@ -45,7 +52,7 @@
   }
   #KamalKumar {
     font-weight: normal;
-    font-size: 65px;
+    font-size: 63.65px;
     font-family: Mongolian Baiti;
     font-weight: 50;
   }

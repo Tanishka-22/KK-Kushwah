@@ -15,11 +15,12 @@
     color: blue;
     width: 100%;
   }
-  #jeclogo{
-    position: relative;
-    height: 35px;
-    width: 35px;
-    margin-left: 5px;
+  .jec-logo {
+    width: 9.4% !important;
+    position: absolute;
+    right: 25px;
+    padding: 5px;
+    margin-top: 7px;
   }
   .test {
     margin: 20px auto;
@@ -38,14 +39,25 @@
   a:hover {
     text-decoration: none;
   }
+/* ---------------------------jec-logo------------------------ */
+.top-content{
+  display: flex;
   
+}
+.jec-logo {
+  width: 9.4% !important;
+  position: absolute;
+  right: 25px;
+  padding: 5px;
+  margin-top: 7px;
+}
   /*? <!----------------------------------------------- < Landing Page > -----------------------------------------------> */
   header {
     margin: 0px 15px;
   }
   #KamalKumar {
     font-weight: normal;
-    font-size: 65px;
+    font-size: 63.65px;
     font-family: Mongolian Baiti;
     font-weight: 50;
   }
@@ -207,7 +219,7 @@
     font-weight: 500;
   }
   #logos {
-    width: 15em;
+    width: 16em;
     display: flex;
     justify-content: center;
   }

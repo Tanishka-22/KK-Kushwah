@@ -10,11 +10,18 @@
   color: blue;
   width: 100%;
 }
-#jeclogo{
-  position: relative;
-  height: 35px;
-  width: 35px;
-  margin-left: 5px;
+/* ---------------------------jec-logo------------------------ */
+.top-content{
+  display: flex;
+  
+}
+
+.jec-logo {
+  width: 9.4% !important;
+  position: absolute;
+  right: 25px;
+  padding: 5px;
+  margin-top: 7px;
 }
 body {
   background-image: url("istockphoto-16.jpg") !important;
@@ -50,7 +57,7 @@ header {
 }
 #KamalKumar {
   font-weight: normal;
-  font-size: 65px;
+  font-size: 63.65px;
   font-family: Mongolian Baiti;
   font-weight: 50;
 }
@@ -119,156 +126,7 @@ ul {
   text-shadow: rgb(114, 113, 113) 0.5px 0 2px;
   color: rgb(234, 241, 234);
 }
-/*? <!----------------------------------------------- < Profile Section > -----------------------------------------------> */
-.sectionbg {
-  z-index: -1;
-  font-size: 175px;
-  font-weight: 600;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: absolute;
-  color: rgba(103, 185, 252, 0.2);
-  top: -70px;
-  right: 86px;
-}
-#main-image {
-  position: absolute;
-  top: 65px;
-  left: 130px;
-  width: 380px;
-  height: 500px;
-  background-image: url("profile pic.jpeg");
-  box-shadow: rgba(46, 162, 240, 0.4) 5px 5px, rgba(46, 153, 240, 0.3) 10px 10px,
-    rgba(46, 111, 240, 0.2) 15px 15px, rgba(46, 143, 240, 0.1) 20px 20px,
-    rgba(46, 198, 240, 0.05) 25px 25px;
-  background-size: cover;
-  background-position: center;
-}
-#Landing > div {
-  display: flex;
-  justify-content: right;
-}
-#Profile {
-  padding: 5px 70px;
-  margin-top: 80px;
-  width: 57%;
-}
-#hello {
-  font-size: 40px;
-}
-#logos {
-  width: 20em;
-  display: flex;
-  justify-content: left;
-}
-#logos div {
-  cursor: pointer;
-  margin: 6px;
-  border: 1px solid rgb(185, 185, 185);
-  padding: 5px 5px;
-  border-radius: 5px;
-  transition: all 350ms ease;
-}
-#logos div:hover,
-.footerimgs div:hover {
-  transform: scale(1.05);
-  border: 1px solid rgb(221, 73, 9);
-  box-shadow: rgba(209, 206, 206, 0.24) 0px 3px 8px;
-}
-#logos img {
-  width: 20px;
-}
-/*? <!----------------------------------------------- < Experience > -----------------------------------------------> */
 
-#experience {
-  position: relative;
-  margin: 20px 80px;
-  margin-top: 160px;
-  padding: 30px 40px;
-  background-color: rgb(247, 247, 249);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
-
-/*? <!----------------------------------------------- < Disciplines > -----------------------------------------------> */
-
-#Disciplines {
-  margin: 20px 100px;
-  display: flex;
-  justify-content: center;
-  height: auto;
-}
-#Disciplines > div {
-  padding: 20px 40px;
-  margin-right: 18px;
-  background-color: rgb(247, 247, 249);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
-#disps {
-  margin: 0px;
-  color: rgb(24, 24, 193);
-}
-/*? <!----------------------------------------------- < Connect Section > -----------------------------------------------> */
-
-#connect {
-  margin: auto;
-  margin-bottom: 0px;
-  background: rgba(20, 75, 131, 0.559);
-  min-height: 200px;
-  width: 100%;
-}
-#letusconnect {
-  font-size: 90px;
-  font-weight: 400;
-  color: white;
-  text-transform: uppercase;
-}
-.connectsection {
-  display: flex;
-  justify-content: center;
-}
-.connectsection > div {
-  margin: 10px 20px;
-}
-.connectsection > div:nth-child(2) {
-  padding-bottom: 30px;
-  position: relative;
-}
-.connectsection input {
-  width: 205px;
-  padding: 7px 10px;
-  margin: 5px auto;
-  border-radius: 5px;
-  border: 0;
-  outline: 0;
-}
-.connectsection textarea {
-  padding: 7px 10px;
-  margin: 5px auto;
-  border-radius: 5px;
-  border: 0;
-  outline: 0;
-  margin: 1px auto;
-}
-.connectsection label {
-  color: rgb(0, 0, 0);
-  font-size: 15px;
-  margin: 10px;
-}
-#email {
-  width: 435px;
-}
-#submit-button {
-  border-radius: 50px;
-  bottom: 0px;
-  right: 5px;
-  width: 25%;
-  color: white;
-  font-size: 18px;
-  background-color: rgb(22, 65, 82);
-  margin: 5px 10px;
-  position: absolute;
-  padding: 10px 30px;
-}
 /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
 html {
   position: relative;
@@ -326,7 +184,7 @@ html {
 }
 
 #footlogos {
-  width: 20em;
+  width: 16em;
   display: flex;
   justify-content: center;
 }
