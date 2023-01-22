@@ -477,3 +477,13 @@ ul {
 #footlogos img {
   width: 20px;
 }
+
+#hello-title {
+  color:rgb(12, 57, 141);
+}
+
+@media (max-width:500px){
+   #hello-title{
+     color:rgb(0, 0, 0);
+   }
+}
