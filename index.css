@@ -26,7 +26,7 @@ body {
   position: absolute;
   right: 25px;
   padding: 5px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 .test {
   margin: 20px auto;
@@ -254,7 +254,7 @@ ul {
   margin-top: 88px;
   width: 400px;
   height: 440px;
-  background-image: url("images/about - Copy.jpeg");
+  background-image: url("images/about pic final.jpg");
   background-repeat: no-repeat;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 50%
