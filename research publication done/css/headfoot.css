@@ -19,14 +19,14 @@ body {
 /* ---------------------------jec-logo------------------------ */
 .top-content{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   
 }
 
 .jec-logo {
-  width: 9.4% !important;
-  position: absolute;
-  right: 25px;
-  padding: 5px;
+width: 10rem;
   margin-top: 7px;
 }
 .test {
@@ -206,4 +206,18 @@ html {
 }
 #footlogos img {
   width: 20px;
+}
+
+@media (max-width:700px){
+  html{
+    width: fit-content;
+  }
+  #KamalKumar{
+    font-size: 51px;
+  }
+  #dropmeow > ul{
+    left: -394px;
+    top: 42px;
+
+  }
 }

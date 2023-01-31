@@ -101,3 +101,8 @@ body {
     margin-top: 12px !important;  
   }  
   
+  @media (max-width:700px){
+    html{
+      width: fit-content;
+    }
+  }

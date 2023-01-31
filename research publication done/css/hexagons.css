@@ -55,3 +55,9 @@ main {
   background: rgba(0, 47, 255, 0.146);
   transform: rotateZ(0deg);
 }
+
+@media (max-width:700px){
+  html{
+    width: fit-content;
+  }
+}

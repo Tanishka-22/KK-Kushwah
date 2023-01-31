@@ -51,3 +51,15 @@ a {
   transform: scale(1.02);
   background-color: rgb(235, 253, 255);
 }
+
+@media (max-width:700px){
+  html{
+    width: min-content;
+  }
+  #dropmeow > ul{
+    left: -450px;
+  }
+  #droppers{
+    font-size:2rem;
+  }
+}

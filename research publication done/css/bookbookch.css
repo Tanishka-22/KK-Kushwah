@@ -51,3 +51,9 @@
 #list{
     color: #1388cc;
 }
+
+@media (max-width:700px){
+    html{
+      width: fit-content;
+    }
+  }

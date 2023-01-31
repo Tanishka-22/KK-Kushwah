@@ -18,15 +18,14 @@ body {
 /* ---------------------------jec-logo------------------------ */
 .top-content{
   display: flex;
-  
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .jec-logo {
-  width: 9.4% !important;
-  position: absolute;
-  right: 25px;
-  padding: 5px;
-  margin-top: 5px;
+  width: 11.5rem;
+  margin-top: 7px;
 }
 .test {
   margin: 20px auto;
@@ -52,7 +51,7 @@ li:hover {
   display: none;
   position: absolute;
   transition: all 300ms ease;
-  z-index: 99999999999999999999999999999999999999999999999999;
+  z-index: 9;
 }
 #dropmeow > ul {
   width: 280px;
@@ -102,7 +101,7 @@ header {
   margin: 50px 15px;
 }
 .landing-divs {
-  width: 70%;
+  flex: 0.7;
   z-index: -3;
   position: relative;
   display: flex;
@@ -116,10 +115,7 @@ header {
 }
 
 #calender {
-  position: absolute;
-  top: 653px;
-  right: 27px;
-  width: 28.2%;
+   width: 90%;
   background-color: #236b8e;
   height: 50px;
   text-align: center;
@@ -130,13 +126,15 @@ header {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+.two{
+ flex: 0.3;
+
+}
 #spotlights {
-  position: absolute;
-  top: 259px;
-  right: 28px;
+
   height: 395px;
+  width: 90%;
   padding: 10px 28px;
-  width: 28%;
   overflow-y: scroll;
   z-index: 111111111;
   background-color: #f7f7f9;
@@ -149,10 +147,8 @@ header {
 }
 
 #spotlight-head {
-  position: absolute;
-  top: 219px;
-  right: 28px;
-  width: 28.1%;
+
+  width: 90%;
   font-size: 25px;
   padding: 4px 10px;
   /* background-color: rgba(255, 255, 224, 0.749); */
@@ -481,9 +477,78 @@ ul {
 #hello-title {
   color:rgb(12, 57, 141);
 }
+.land{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-@media (max-width:500px){
-   #hello-title{
-     color:rgb(0, 0, 0);
+@media (max-width:700px){
+   .information{
+    flex-direction: column;
+    align-items: center;
+   }
+   #KamalKumar{
+    font-size: 7rem;
+   }
+   #professor{
+    font-size: 3rem;
+   }
+   .landing-divs{
+    width: fit-content;
+   }
+   #Profile{
+    width: auto;
+   }
+   #hello{
+    font-size: 5rem;
+   }
+   #hello h3{
+    font-size: 3rem;
+   }
+   #about{
+    font-size: 3rem;
+   }
+   .contact{
+    font-size: 3rem;
+   }
+   #logos div img{
+    width: 50px;
+   }
+   .one a{
+    font-size: 3rem;
+   }
+   .f6{
+    font-size: 6rem;
+   }
+   .f3{
+    font-size:3rem;
+   }
+   .f4{
+    font-size: 4rem;
+   }
+   #footer{
+    flex-direction: column;
+   }
+   #footlogos div a img{
+    width:32px;
+   }
+   .two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+   }
+   .land{
+    flex-direction: column;
+   }
+   #spotlights{
+    height: 110rem;
+   }
+   #calender{
+    height: 102px;
+   }
+   html{
+    width: min-content;
    }
 }
