@@ -52,14 +52,14 @@ a {
   background-color: rgb(235, 253, 255);
 }
 
-@media (max-width:700px){
-  html{
+@media (max-width: 700px) {
+  /* html {
     width: min-content;
-  }
-  #dropmeow > ul{
+  } */
+  #dropmeow > ul {
     left: -450px;
   }
-  #droppers{
-    font-size:2rem;
+  #droppers {
+    font-size: 2rem;
   }
 }

@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 /* ---------------------------jec-logo------------------------ */
-.top-content{
+.top-content {
   display: flex;
   flex: row;
   align-items: center;
@@ -115,7 +115,7 @@ header {
 }
 
 #calender {
-   width: 90%;
+  width: 90%;
   background-color: #236b8e;
   height: 50px;
   text-align: center;
@@ -126,12 +126,10 @@ header {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.two{
- flex: 0.3;
-
+.two {
+  flex: 0.3;
 }
 #spotlights {
-
   height: 395px;
   width: 90%;
   padding: 10px 28px;
@@ -147,7 +145,6 @@ header {
 }
 
 #spotlight-head {
-
   width: 90%;
   font-size: 25px;
   padding: 4px 10px;
@@ -165,7 +162,7 @@ header {
     display: none;
   } */
 #bannerimg {
-  width: 100%;
+  width: 100% !important;
 }
 .item {
   height: 470px;
@@ -197,7 +194,11 @@ ul {
   padding: 5px 3px;
   background-color: #236b8e;
 }
-
+.NavDividers {
+  font-size: 20px;
+  font-stretch: 50%;
+  font-weight: 200;
+}
 #navbuts {
   cursor: pointer;
   padding: 0px 10px 0px;
@@ -252,8 +253,9 @@ ul {
   height: 440px;
   background-image: url("images/about pic final.jpg");
   background-repeat: no-repeat;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  border-radius: 50%
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 50%;
 }
 
 #Landing > div {
@@ -268,12 +270,12 @@ ul {
 #hello {
   font-size: 40px;
 }
-#about{
+#about {
   text-align: justify;
 }
-.about-container{
+.about-container {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 #readmore:hover {
   text-decoration: underline;
@@ -392,15 +394,14 @@ ul {
   padding: 10px 30px;
 }
 /* -----------------------------------------find here-------------------------------------------------- */
-#logo-pics{
-
+#logo-pics {
   background-color: #fafafa;
 }
 .press-logo {
   width: 20%;
-  margin: 5px 20px ;
+  margin: 5px 20px;
 }
- 
+
 /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
 #footer {
   margin: auto;
@@ -452,7 +453,7 @@ ul {
 }
 
 #footlogos {
-  width: 16.5em;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -475,80 +476,193 @@ ul {
 }
 
 #hello-title {
-  color:rgb(12, 57, 141);
+  color: rgb(12, 57, 141);
 }
-.land{
+.land {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-@media (max-width:700px){
-   .information{
-    flex-direction: column;
-    align-items: center;
-   }
-   #KamalKumar{
-    font-size: 7rem;
-   }
-   #professor{
-    font-size: 3rem;
-   }
-   .landing-divs{
-    width: fit-content;
-   }
-   #Profile{
-    width: auto;
-   }
-   #hello{
+/*? ----------------------------Small Screen Sizes -------------------------------- */
+@media all and (min-width: 320px) and (max-width: 809px) {
+  #KamalKumar {
     font-size: 5rem;
-   }
-   #hello h3{
+  }
+  #professor {
+    font-size: 2rem;
+  }
+
+  #Profile {
+    width: auto;
+  }
+
+  #hello {
+    font-size: 5rem;
+  }
+  #hello h3 {
     font-size: 3rem;
-   }
-   #about{
+  }
+  #about {
     font-size: 3rem;
-   }
-   .contact{
+  }
+  .contact {
     font-size: 3rem;
-   }
-   #logos div img{
+  }
+  #logos div img {
     width: 50px;
-   }
-   .one a{
-    font-size: 3rem;
-   }
-   .f6{
-    font-size: 6rem;
-   }
-   .f3{
-    font-size:3rem;
-   }
-   .f4{
-    font-size: 4rem;
-   }
-   #footer{
+  }
+  * {
+    font-size: 12px;
+  }
+
+  #dropmeow {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+  #dropmeow > ul {
+    width: 200px !important;
+
+    margin: none !important;
+    left: 10px !important;
+  }
+  .two {
+    margin: 0px 30px;
+  }
+  #droppers {
+    padding: 0px;
+    font-size: 12px !important;
+  }
+  #NavButtonsContainer > label {
+    font-size: 30px;
+  }
+  #main-image {
+    margin: 20px;
+  }
+  #NavButtonsContainer.sticky {
+    padding: 1px;
+  }
+  .NavDividers {
+    font-size: 100px;
+    font-weight: 100 !important;
+  }
+  #bannerimg {
+    width: 100% !important;
+  }
+  #navbuts {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .item {
+    height: 235px;
+    object-position: center;
+    object-fit: cover;
+  }
+  #banner {
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+    height: fit-content;
+    left: 30px !important;
+  }
+
+  #footlogos div a img {
+    width: 32px;
+  }
+
+  #spotlight-head > p {
+    font-size: 24px;
+  }
+  #spotlights {
+    width: 90%;
+    height: 40rem;
+  }
+  #calender {
+    height: 45px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #calender > a {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .land {
     flex-direction: column;
-   }
-   #footlogos div a img{
-    width:32px;
-   }
-   .two{
+  }
+  #footer {
+    flex-direction: column;
+  }
+  .two {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-   }
-   .land{
+  }
+  .information {
     flex-direction: column;
-   }
-   #spotlights{
-    height: 110rem;
-   }
-   #calender{
-    height: 102px;
-   }
-   html{
-    width: min-content;
-   }
+    align-items: center;
+  }
+  html {
+    width: 100%;
+  }
+
+  .connectsection {
+    flex-direction: column;
+  }
+
+  #about {
+    font-size: 13px;
+  }
+  #experience {
+    margin: 4px 20px;
+  }
+  #Disciplines {
+    flex-direction: column;
+    margin: 10px 40px;
+  }
+  #Disciplines > div {
+    width: 80%;
+    margin: 10px auto;
+  }
+  #letusconnect {
+    font-size: 70px;
+  }
+  .connectsection > div {
+    margin-bottom: 0;
+  }
+  .connectsection input,
+  #email {
+    width: 305px;
+  }
+
+  .connectsection textarea {
+    width: 400px;
+  }
+  #footlogos {
+    justify-content: center;
+  }
+  #footer > div {
+    width: 100%;
+  }
+  #hello-title,
+  #hello {
+    font-size: 3rem;
+  }
+  #Profile {
+    padding: 20px;
+  }
+  .contact {
+    font-size: 16px;
+  }
+  #logos {
+    width: 5rem;
+  }
+  #logos > div > a > img {
+    width: 4rem;
+  }
 }
