@@ -4,6 +4,9 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+div,section{
+  border: 1px solid black
+}
 body {
   background-image: url("istockphoto-16.jpg") !important;
   background-size: 100% 78.9% !important;
@@ -492,7 +495,10 @@ ul {
   #professor {
     font-size: 2rem;
   }
-
+  body > header > div.top-content > div:nth-child(2) > a > img{
+    width: 98px;
+  }
+  
   #Profile {
     width: auto;
   }
@@ -515,6 +521,11 @@ ul {
   * {
     font-size: 12px;
   }
+  #main-image{
+    width: 95%;
+    height: 400px;
+    margin: 0px;
+  }
 
   #dropmeow {
     width: 20px;
@@ -536,10 +547,9 @@ ul {
     font-size: 12px !important;
   }
   #NavButtonsContainer > label {
-    font-size: 30px;
-  }
-  #main-image {
-    margin: 20px;
+    font-size: 9px;
+      width: 100% !important;
+    }
   }
   #NavButtonsContainer.sticky {
     padding: 1px;
@@ -591,6 +601,9 @@ ul {
     margin: 0;
     padding: 0;
   }
+  #connect > div.connectsection > div:nth-child(2) > form > label:nth-child(6) > textarea{
+    width: 250px;
+  }
   .land {
     flex-direction: column;
   }
@@ -609,6 +622,10 @@ ul {
   }
   html {
     width: 100%;
+  }
+  #submit-button{
+    text-align: center;
+    padding: 8px 10px;
   }
 
   .connectsection {
@@ -647,7 +664,7 @@ ul {
     justify-content: center;
   }
   #footer > div {
-    width: 100%;
+    width: 95%;
   }
   #hello-title,
   #hello {
