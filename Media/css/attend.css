@@ -41,3 +41,53 @@
 p {
   font-size: 18px;
 }
+/*-----------media queries------------------*/
+@media all and (min-width: 320px) and (max-width: 809px) {
+  body > center > h1{
+    font-size: 29px;
+  }
+  body > header > div.top-content > a > img{
+    width: 99px !important;
+    margin-top: 63px;
+    right: 10px;
+  }
+  .ChildBox{
+    flex-direction: column;
+    padding: 20px;
+    min-height: 400px;
+  }
+  #slideshow {
+    height: 200px;
+    width: 100%;
+  }
+  #banner {
+    height: 200px;
+    width: 100%;
+  }
+  .container,.item{
+    height: 200px;
+    width: 100%;
+  }
+  div.item.active{
+    height: 200px
+  }
+  div.Info{
+    min-width: 100%;
+    max-width: 100%;
+    padding: 9px;
+    padding-top: 15px;
+  }
+  .para{
+    font-size: 14px;
+  }
+  div.slideshow{
+    width:100%;
+  }
+  div#banner.container{
+    width: 100%;
+  }
+  #myCarousel{
+    width: 100%
+  }
+  }
+  

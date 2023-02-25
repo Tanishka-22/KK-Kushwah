@@ -42,7 +42,9 @@
         width: 100% !important;
     }
     #NavButtonsContainer.sticky {
-      padding: 1px;
+      padding-top: 1px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     .NavDividers {
       font-size: 100px;
@@ -86,9 +88,33 @@
     }
     
     #logos {
-      width: 5rem;
+      justify-self: center !important;
+      width: 20rem !important;
+      margin-left: 15% !important;
+    
     }
-    #logos > div > a > img {
-      width: 4rem;
+    .logoimg{
+      height: 20px !important;
+      width: 20px !important;
     }
-  }
+  /*----------------page--------------------------------*/
+#head{
+  font-size: 30px;
+}
+#card-container{
+  flex-flow: row wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.card{
+  height: 200px;
+  width: 100px;
+}
+#background{
+  width: 100%;
+}
+#name{
+  font-size: 13px;
+}
+
+}

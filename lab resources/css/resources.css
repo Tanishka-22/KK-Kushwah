@@ -6,6 +6,14 @@
 .ppt-image{
     width: auto;
 }
+#LR{
+    color: rgb(80, 84, 88);
+    margin: 0px; font-style:italic; 
+    font-size: 55px ;
+    margin-left: 2%; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-top: 1% ;
+}
 #Resources img {
     width: 100%;
     padding: 5px;

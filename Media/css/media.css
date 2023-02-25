@@ -6,7 +6,10 @@
       font-size: 2rem;
     }
     body > header > div.top-content > div:nth-child(2) > a > img{
-      width: 98px;
+      width: 90px !important;
+      margin-top: 70px !important;
+      padding: 0px;
+      right: 15px;
     }
     
     #Profile {
@@ -84,11 +87,59 @@
     #footer > div {
       width: 95%;
     }
-    
     #logos {
-      width: 5rem;
+      justify-self: center !important;
+      width: 20rem !important;
+      margin-left: 15% !important;
+      
     }
-    #logos > div > a > img {
-      width: 4rem;
+    .logoimg{
+      height: 20px !important;
+      width: 20px !important;
+      }
+      #footlogos{
+        width: 29rem;
+        align: center;
+      }
+    
+    /*-------------------media-----------------------*/
+    .Media{
+      column-gap: 5rem;
+      display: grid;
     }
+    .mediachild{
+      width: 310px !important;
+    }
+    body > div.Media > div:nth-child(1) > img{
+      width:310px;
+    }
+    body > div.Media > div:nth-child(2) > img{
+      width:310px;
+    }
+    body > div.Media > div:nth-child(3) > img{
+      width:310px;
+    }
+    body > div.Media > div:nth-child(4) > img{
+      width:310px;
+    }
+    .mediatext{
+      position: relative;
+      width:310px;
+      padding-left: 7px;
+      margin-top: 0px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .text{
+      font-size: 16px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+      padding: 5px;
+    }
+    div.mediatext{
+      padding: 0px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    #footer{
+      position: relative;
+      }
   }

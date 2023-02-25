@@ -4,9 +4,9 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-div,section{
+/*------div,section{
   border: 1px solid black
-}
+}---*/
 body {
   background-image: url("istockphoto-16.jpg") !important;
   background-size: 100% 78.9% !important;

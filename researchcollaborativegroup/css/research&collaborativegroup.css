@@ -7,6 +7,16 @@
   width: 70%;
 
 }
+#head{
+  color: rgb(80, 84, 88);
+  margin: 0px; 
+  font-style:italic; 
+  font-size: 55px ;
+  margin-left: 2%; 
+  font-family: 'Times New Roman', Times, serif; 
+  margin-top: 1% ;
+  background-color: rgb(231, 236, 241); 
+}
 #card-container{
     margin: 10px;
     display: flex;
