@@ -57,10 +57,7 @@
   #spotlight-head > p {
     font-size: 24px;
   }
-  div,
-  section {
-    border: 1px solid black;
-  }
+  
   #read {
     margin: 21px;
   }
