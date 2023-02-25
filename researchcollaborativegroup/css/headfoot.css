@@ -150,7 +150,7 @@ ul {
   font-weight: 500;
 }
 #logos {
-  width: 16em !important;
+  width: 100% !important;
   display: flex;
   justify-content: center;
 }

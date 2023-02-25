@@ -17,13 +17,12 @@ body {
   width: 100%;
 }
 /* ---------------------------jec-logo------------------------ */
-.top-content{
+.top-content {
   display: flex;
-  
 }
 
 .jec-logo {
-  width: 9.4% !important;
+  width: 8.4% !important;
   position: absolute;
   right: 25px;
   padding: 5px;
@@ -83,7 +82,6 @@ header {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-
 ul {
   margin-left: 15px;
 }
@@ -134,9 +132,6 @@ html {
   position: relative;
 }
 #footer {
-  position: absolute;
-  bottom: 0px;
-  margin: 0px;
   background: rgba(170, 161, 161, 0.559);
   min-height: 200px;
   width: 100% !important ;
@@ -186,7 +181,7 @@ html {
 }
 
 #footlogos {
-  width: 16em;
+  width: 100%;
   display: flex;
   justify-content: center;
 }

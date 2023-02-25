@@ -85,7 +85,7 @@
 
   #logos {
     justify-self: center !important;
-    width: 20rem !important;
+    width: 100% !important;
     margin-left: 15% !important;
   }
   .logoimg {

@@ -1,50 +1,50 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
-  }
-  body{
-    background-image: url("pictures/istockphoto-16.jpg") !important;
-    background-size: 100% 15.5% !important;
-    background-repeat: no-repeat;
-  }
-  #hr {
-    border-top: 2px solid rgb(154, 154, 156);
-    margin: 7px;
-    color: blue;
-    width: 100%;
-  }
-  .top-content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .jec-logo {
-   width: 11rem !important;
-    margin-top: 7px;
-  }
-  .test {
-    margin: 20px auto;
-    min-height: 500px;
-  }
-  
-  /* div,
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("pictures/istockphoto-16.jpg") !important;
+  background-size: 100% 15.5% !important;
+  background-repeat: no-repeat;
+}
+#hr {
+  border-top: 2px solid rgb(154, 154, 156);
+  margin: 7px;
+  color: blue;
+  width: 100%;
+}
+.top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jec-logo {
+  width: 11rem !important;
+  margin-top: 7px;
+}
+.test {
+  margin: 20px auto;
+  min-height: 500px;
+}
+
+/* div,
   section {
     border: 1px solid black;
   } */
-  
-  /* section {
+
+/* section {
     margin: 300px auto;
   } */
-  a,
-  a:hover {
-    text-decoration: none;
-  }
+a,
+a:hover {
+  text-decoration: none;
+}
 /* ---------------------------jec-logo------------------------ */
-.top-content{
+.top-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,157 +54,155 @@
   width: 10rem;
   margin-top: 7px;
 }
-  /*? <!----------------------------------------------- < Landing Page > -----------------------------------------------> */
-  header {
-    margin: 0px 15px;
-  }
-  #KamalKumar {
-    font-weight: normal;
-    font-size: 63.65px;
-    font-family: Mongolian Baiti;
-    font-weight: 50;
-  }
-  #professor {
-    margin: 5px;
-    font-size: 19.5px;
-    font-family: serif;
-    font-weight: lighter;
-  }
-  #Landing { 
-    position: relative;
-    padding: 5px;
-    margin: 80px 15px;
-  }
-  .landing-divs {
-    position: relative;
-    display: flex;
-    justify-content: left;
-    padding: 5px 15px;
-  }
-  .landing-divs > div {
-    height: 480px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
- 
-  .Navigation {
-    width: 100%;
-    align-self: center;
-  }
-  
-  #NavButtonsContainer.sticky {
-    position: sticky;
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 5px 3px;
-    background-color: #236b8e;
-  }
-  
-  #navbuts {
-    cursor: pointer;
-    padding: 0px 10px 0px;;
-    padding-bottom: 0px;
-    border-bottom: 3px solid transparent;
-    color: rgb(220, 220, 226);
-    font-size: 15px;
-    transition: all 200ms linear;
-  }
-  #navbutlabels {
-    padding: 2px 10px 4px;;
-    padding-bottom: 0px;
-    border-bottom: 3px solid transparent;
-    color: rgb(42, 42, 44);
-    font-size: 16px;
-    transition: all 200ms linear;
-  }
-  #navbuts:hover {
-    text-decoration: underline;
-    text-shadow: rgb(114, 113, 113) 0.5px 0 2px;
-    color: rgb(234, 241, 234);
-  }
-  /*? <!----------------------------------------------- < Profile Section > -----------------------------------------------> */
+/*? <!----------------------------------------------- < Landing Page > -----------------------------------------------> */
+header {
+  margin: 0px 15px;
+}
+#KamalKumar {
+  font-weight: normal;
+  font-size: 63.65px;
+  font-family: Mongolian Baiti;
+  font-weight: 50;
+}
+#professor {
+  margin: 5px;
+  font-size: 19.5px;
+  font-family: serif;
+  font-weight: lighter;
+}
+#Landing {
+  position: relative;
+  padding: 5px;
+  margin: 80px 15px;
+}
+.landing-divs {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  padding: 5px 15px;
+}
+.landing-divs > div {
+  height: 480px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
+.Navigation {
+  width: 100%;
+  align-self: center;
+}
 
-  
-  /*? <!----------------------------------------------- < Connect Section > -----------------------------------------------> */
-  
-  #connect {
-    margin: auto;
-    margin-bottom: 0px;
-    background: rgba(20, 75, 131, 0.559);
-    min-height: 200px;
-    width: 98%;
-    margin-left: 1%;
-    margin-top: 0px;
-  }
-  #letusconnect {
-    font-size: 90px;
-    font-weight: 400;
-    color: white;
-    text-transform: uppercase;
-    margin-right: 5% !important;
-  }
-  .connectsection {
-    display: flex;
-    justify-content: center;
-  }
-  .connectsection > div {
-    margin: 10px 20px;
-  }
-  .connectsection > div:nth-child(2) {
-    padding-bottom: 30px;
-    position: relative;
-  }
-  .connectsection input {
-    width: 205px;
-    padding: 7px 10px;
-    margin: 5px auto;
-    border-radius: 5px;
-    border: 0;
-    outline: 0;
-  }
-  .connectsection textarea {
-    padding: 7px 10px;
-    margin: 5px auto;
-    border-radius: 5px;
-    border: 0;
-    outline: 0;
-    margin: 1px auto;
-  }
-  .connectsection label {
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    margin: 10px;
-  }
-  #email {
-    width: 435px;
-  }
-  #submit-button {
-    border-radius: 50px;
-    bottom: 0px;
-    right: 5px;
-    width: 25%;
-    color: white;
-    font-size: 18px;
-    background-color: rgb(22, 65, 82);
-    margin: 5px 10px;
-    position: absolute;
-    padding: 10px 30px;
-  }
-  /*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
-  #footer {
-    margin: auto;
-    margin-top: 10px;
-    background: rgba(170, 161, 161, 0.559);
-    min-height: 200px;
-    width: 100%;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  /* #footer > div {
+#NavButtonsContainer.sticky {
+  position: sticky;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5px 3px;
+  background-color: #236b8e;
+}
+
+#navbuts {
+  cursor: pointer;
+  padding: 0px 10px 0px;
+  padding-bottom: 0px;
+  border-bottom: 3px solid transparent;
+  color: rgb(220, 220, 226);
+  font-size: 15px;
+  transition: all 200ms linear;
+}
+#navbutlabels {
+  padding: 2px 10px 4px;
+  padding-bottom: 0px;
+  border-bottom: 3px solid transparent;
+  color: rgb(42, 42, 44);
+  font-size: 16px;
+  transition: all 200ms linear;
+}
+#navbuts:hover {
+  text-decoration: underline;
+  text-shadow: rgb(114, 113, 113) 0.5px 0 2px;
+  color: rgb(234, 241, 234);
+}
+/*? <!----------------------------------------------- < Profile Section > -----------------------------------------------> */
+
+/*? <!----------------------------------------------- < Connect Section > -----------------------------------------------> */
+
+#connect {
+  margin: auto;
+  margin-bottom: 0px;
+  background: rgba(20, 75, 131, 0.559);
+  min-height: 200px;
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 0px;
+}
+#letusconnect {
+  font-size: 90px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 5% !important;
+}
+.connectsection {
+  display: flex;
+  justify-content: center;
+}
+.connectsection > div {
+  margin: 10px 20px;
+}
+.connectsection > div:nth-child(2) {
+  padding-bottom: 30px;
+  position: relative;
+}
+.connectsection input {
+  width: 205px;
+  padding: 7px 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+}
+.connectsection textarea {
+  padding: 7px 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  margin: 1px auto;
+}
+.connectsection label {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin: 10px;
+}
+#email {
+  width: 435px;
+}
+#submit-button {
+  border-radius: 50px;
+  bottom: 0px;
+  right: 5px;
+  width: 25%;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(22, 65, 82);
+  margin: 5px 10px;
+  position: absolute;
+  padding: 10px 30px;
+}
+/*? <!----------------------------------------------- < Footer > -----------------------------------------------> */
+#footer {
+  margin: auto;
+  margin-top: 10px;
+  background: rgba(170, 161, 161, 0.559);
+  min-height: 200px;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* #footer > div {
     border: 3px solid white;
     margin: 10px;
     padding: 35px;
@@ -212,43 +210,42 @@
     min-width: 23%;
     text-align: center; 
   }*/
-  #footer h3 {
-    margin: 3px;
-    color: #000;
-  }
-  #footer label {
-    font-size: 12px;
-    margin: 0px;
-    font-weight: 500;
-  }
-  #logos {
-    width: 16em;
-    display: flex;
-    justify-content: center;
-  }
-  #logos div {
-    cursor: pointer;
-    margin: 6px;
-    border: 1px solid rgb(185, 185, 185);
-    padding: 5px 5px;
-    border-radius: 5px;
-    transition: all 350ms ease;
-  }
-  #logos div:hover,
-  .footerimgs div:hover {
-    transform: scale(1.05);
-    border: 1px solid rgb(26, 25, 25);
-    box-shadow: rgba(209, 206, 206, 0.24) 0px 3px 8px;
-  }
-  #logos img {
-    width: 20px;
-  }
-  .contact-box{
-    border: 3px solid white;
-    margin: 10px;
-    padding: 35px;
-    min-height: 100px;
-    min-width: 23%;
-    text-align: center; 
-  }
- 
+#footer h3 {
+  margin: 3px;
+  color: #000;
+}
+#footer label {
+  font-size: 12px;
+  margin: 0px;
+  font-weight: 500;
+}
+#logos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#logos div {
+  cursor: pointer;
+  margin: 6px;
+  border: 1px solid rgb(185, 185, 185);
+  padding: 5px 5px;
+  border-radius: 5px;
+  transition: all 350ms ease;
+}
+#logos div:hover,
+.footerimgs div:hover {
+  transform: scale(1.05);
+  border: 1px solid rgb(26, 25, 25);
+  box-shadow: rgba(209, 206, 206, 0.24) 0px 3px 8px;
+}
+#logos img {
+  width: 20px;
+}
+.contact-box {
+  border: 3px solid white;
+  margin: 10px;
+  padding: 35px;
+  min-height: 100px;
+  min-width: 23%;
+  text-align: center;
+}

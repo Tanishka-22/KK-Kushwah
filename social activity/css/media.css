@@ -117,7 +117,7 @@
   }
 
   #logos {
-    width: 5rem;
+    width: 100%;
   }
   #logos > div > a > img {
     width: 4rem;
