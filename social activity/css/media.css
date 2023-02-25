@@ -1,104 +1,141 @@
 @media all and (min-width: 320px) and (max-width: 809px) {
-    #KamalKumar {
-      font-size: 5rem;
-    }
-    #professor {
-      font-size: 2rem;
-    }
-    body > header > div.top-content > div:nth-child(2) > a > img{
-      width: 98px !important;
-      margin-top: 62px;
-      right: 10px !important;
-    }
-    
-    #Profile {
-      width: auto;
-    }
-    #main-image{
-      width: 95%;
-      height: 400px;
-      margin: 0px;
-    }
-  
-    #dropmeow {
-      width: 20px;
-      position: absolute;
-      left: 0px;
-      top: 20px;
-    }
-    #dropmeow > ul {
-      width: 200px !important;
-  
-      margin: none !important;
-      left: 10px !important;
-    }
-    .two {
-      margin: 0px 30px;
-    }
-    #droppers {
-      padding: 0px;
-      font-size: 12px !important;
-    }
-    #NavButtonsContainer > label {
-      font-size: 9px;
-        width: 100% !important;
-    }
-    #NavButtonsContainer.sticky {
-      padding: 1px;
-    }
-    .NavDividers {
-      font-size: 100px;
-      font-weight: 100 !important;
-    }
-   
-    #navbuts {
-      font-size: 10px;
-      padding: 2px;
-    }
-   
-  
-    #footlogos div a img {
-      width: 32px;
-    }
-  
-    #spotlight-head > p {
-      font-size: 24px;
-    }
-    
-    #footer {
-      flex-direction: column;
-    }
-    .two {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-   
-    html {
-      width: 100%;
-    }
-   
-   
-    #footlogos {
-      justify-content: center;
-    }
-    #footer > div {
-      width: 95%;
-    }
-    
-    #logos {
-      width: 5rem;
-    }
-    #logos > div > a > img {
-      width: 4rem;
-    }
-    #social{
-      padding: 9px;
-      margin: 0px 0px 0px;
-      font-size: 33px;
-    }
-    #box{
-      margin-left: 4.5%;
-    }
+  #KamalKumar {
+    font-size: 5rem;
   }
+  #professor {
+    font-size: 2rem;
+  }
+  body > header > div.top-content > div:nth-child(2) > a > img {
+    width: 98px !important;
+    margin-top: 62px;
+    right: 10px !important;
+  }
+  #side-slider-sec {
+    flex-direction: column-reverse;
+    margin: 0px !important;
+  }
+  .content {
+    width: 90%;
+    margin: 10px 20px !important ;
+  }
+  #quote {
+    margin: 20px !important;
+    font-size: 18px !important;
+  }
+  #footer {
+    position: relative;
+  }
+  #gallery {
+    position: static;
+    width: 40%;
+    margin: 10px auto !important;
+  }
+  #footlogos {
+    width: 100%;
+  }
+  #banner {
+    width: 95% !important;
+    margin: 5px auto !important;
+    padding: 0px !important;
+  }
+  #mainpara {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #Profile {
+    width: auto;
+  }
+  #main-image {
+    width: 95%;
+    height: 400px;
+    margin: 0px;
+  }
+
+  #dropmeow {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+  #dropmeow > ul {
+    width: 200px !important;
+
+    margin: none !important;
+    left: 10px !important;
+  }
+  .two {
+    margin: 0px 30px;
+  }
+  #droppers {
+    padding: 0px;
+    font-size: 12px !important;
+  }
+  #NavButtonsContainer > label {
+    font-size: 9px;
+    width: 100% !important;
+  }
+  #NavButtonsContainer.sticky {
+    padding: 1px;
+  }
+  .NavDividers {
+    font-size: 100px;
+    font-weight: 100 !important;
+  }
+
+  #navbuts {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  #footlogos div a img {
+    width: 32px;
+  }
+
+  #spotlight-head > p {
+    font-size: 24px;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  #footlogos {
+    justify-content: center;
+  }
+  #footer > div {
+    width: 95%;
+  }
+
+  #logos {
+    width: 5rem;
+  }
+  #logos > div > a > img {
+    width: 4rem;
+  }
+  #social {
+    padding: 9px;
+    margin: 0px 0px 0px;
+    font-size: 33px;
+  }
+  #box {
+    margin-left: 4.5%;
+  }
+  #dropmeow {
+    top: 10px;
+    left: 10px;
+  }
+  #droppers {
+    padding: 10px;
+    font-size: 12px !important;
+  }
+}

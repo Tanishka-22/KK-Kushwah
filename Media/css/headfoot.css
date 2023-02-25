@@ -4,9 +4,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-div,section{
-  border: 1px solid black;
-}
+
 #hr {
   border-top: 2px solid rgb(154, 154, 156);
   margin: 7px;
@@ -14,9 +12,8 @@ div,section{
   width: 100%;
 }
 /* ---------------------------jec-logo------------------------ */
-.top-content{
+.top-content {
   display: flex;
-  
 }
 
 .jec-logo {

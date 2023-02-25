@@ -1,120 +1,130 @@
 @media all and (min-width: 320px) and (max-width: 809px) {
-    #KamalKumar {
-      font-size: 5rem;
-    }
-    #professor {
-      font-size: 2rem;
-    }
-    body > header > div.top-content > div:nth-child(2) > a > img{
-      width: 98px;
-    }
-    
-    #Profile {
-      width: auto;
-    }
-    #main-image{
-      width: 95%;
-      height: 400px;
-      margin: 0px;
-    }
-  
-    #dropmeow {
-      width: 20px;
-      position: absolute;
-      left: 0px;
-      top: 20px;
-    }
-    #dropmeow > ul {
-      width: 200px !important;
-  
-      margin: none !important;
-      left: 10px !important;
-    }
-    .two {
-      margin: 0px 30px;
-    }
-    #droppers {
-      padding: 0px;
-      font-size: 12px !important;
-    }
-    #NavButtonsContainer > label {
-      font-size: 9px;
-        width: 100% !important;
-    }
-    #NavButtonsContainer.sticky {
-      padding-top: 1px;
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-    .NavDividers {
-      font-size: 100px;
-      font-weight: 100 !important;
-    }
-   
-    #navbuts {
-      font-size: 10px;
-      padding: 2px;
-    }
-   
-  
-    #footlogos div a img {
-      width: 32px;
-    }
-  
-    #spotlight-head > p {
-      font-size: 24px;
-    }
-    
-    #footer {
-      flex-direction: column;
-    }
-    .two {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-   
-    html {
-      width: 100%;
-    }
-   
-   
-    #footlogos {
-      justify-content: center;
-    }
-    #footer > div {
-      width: 95%;
-    }
-    
-    #logos {
-      justify-self: center !important;
-      width: 20rem !important;
-      margin-left: 15% !important;
-    
-    }
-    .logoimg{
-      height: 20px !important;
-      width: 20px !important;
-    }
-  /*----------------page--------------------------------*/
-#head{
-  font-size: 30px;
-}
-#card-container{
-  flex-flow: row wrap;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.card{
-  height: 200px;
-  width: 100px;
-}
-#background{
-  width: 100%;
-}
-#name{
-  font-size: 13px;
-}
+  #KamalKumar {
+    font-size: 5rem;
+  }
+  #professor {
+    font-size: 2rem;
+  }
+  body > header > div.top-content > div:nth-child(2) > a > img {
+    width: 98px;
+  }
+  #card-container {
+    overflow-y: visible !important;
+    height: auto !important;
+  }
+  #Profile {
+    width: auto;
+  }
+  #main-image {
+    width: 95%;
+    height: 400px;
+    margin: 0px;
+  }
 
+  #dropmeow {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+  #dropmeow > ul {
+    width: 200px !important;
+
+    margin: none !important;
+    left: 10px !important;
+  }
+  .two {
+    margin: 0px 30px;
+  }
+  #droppers {
+    padding: 0px;
+    font-size: 12px !important;
+  }
+  #NavButtonsContainer > label {
+    font-size: 9px;
+    width: 100% !important;
+  }
+  #NavButtonsContainer.sticky {
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .NavDividers {
+    font-size: 100px;
+    font-weight: 100 !important;
+  }
+
+  #navbuts {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  #footlogos div a img {
+    width: 32px;
+  }
+
+  #spotlight-head > p {
+    font-size: 24px;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  #footlogos {
+    justify-content: center;
+  }
+  #footer > div {
+    width: 95%;
+  }
+
+  #logos {
+    justify-self: center !important;
+    width: 100% !important;
+    margin-left: 15% !important;
+  }
+  .logoimg {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  /*----------------page--------------------------------*/
+  #head {
+    font-size: 30px;
+  }
+  #card-container {
+    flex-flow: row wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .card {
+    height: 200px;
+    width: 100px;
+  }
+  #background {
+    width: 100%;
+  }
+  #name {
+    font-size: 13px;
+  }
+  #logos {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  #dropmeow {
+    left: -39px;
+  }
+  #droppers {
+    padding: 10px;
+    font-size: 12px !important;
+  }
 }

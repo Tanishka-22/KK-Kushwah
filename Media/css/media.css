@@ -1,145 +1,234 @@
 @media all and (min-width: 320px) and (max-width: 809px) {
-    #KamalKumar {
-      font-size: 5rem;
-    }
-    #professor {
-      font-size: 2rem;
-    }
-    body > header > div.top-content > div:nth-child(2) > a > img{
-      width: 90px !important;
-      margin-top: 70px !important;
-      padding: 0px;
-      right: 15px;
-    }
-    
-    #Profile {
-      width: auto;
-    }
-    #main-image{
-      width: 95%;
-      height: 400px;
-      margin: 0px;
-    }
-  
-    #dropmeow {
-      width: 20px;
-      position: absolute;
-      left: 0px;
-      top: 20px;
-    }
-    #dropmeow > ul {
-      width: 200px !important;
-  
-      margin: none !important;
-      left: 10px !important;
-    }
-    .two {
-      margin: 0px 30px;
-    }
-    #droppers {
-      padding: 0px;
-      font-size: 12px !important;
-    }
-    #NavButtonsContainer > label {
-      font-size: 9px;
-        width: 100% !important;
-    }
-    #NavButtonsContainer.sticky {
-      padding: 1px;
-    }
-    .NavDividers {
-      font-size: 100px;
-      font-weight: 100 !important;
-    }
-   
-    #navbuts {
-      font-size: 10px;
-      padding: 2px;
-    }
-   
-  
-    #footlogos div a img {
-      width: 32px;
-    }
-  
-    #spotlight-head > p {
-      font-size: 24px;
-    }
-    
-    #footer {
-      flex-direction: column;
-    }
-    .two {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-   
-    html {
-      width: 100%;
-    }
-   
-   
-    #footlogos {
-      justify-content: center;
-    }
-    #footer > div {
-      width: 95%;
-    }
-    #logos {
-      justify-self: center !important;
-      width: 20rem !important;
-      margin-left: 15% !important;
-      
-    }
-    .logoimg{
-      height: 20px !important;
-      width: 20px !important;
-      }
-      #footlogos{
-        width: 29rem;
-        align: center;
-      }
-    
-    /*-------------------media-----------------------*/
-    .Media{
-      column-gap: 5rem;
-      display: grid;
-    }
-    .mediachild{
-      width: 310px !important;
-    }
-    body > div.Media > div:nth-child(1) > img{
-      width:310px;
-    }
-    body > div.Media > div:nth-child(2) > img{
-      width:310px;
-    }
-    body > div.Media > div:nth-child(3) > img{
-      width:310px;
-    }
-    body > div.Media > div:nth-child(4) > img{
-      width:310px;
-    }
-    .mediatext{
-      position: relative;
-      width:310px;
-      padding-left: 7px;
-      margin-top: 0px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    }
-    .text{
-      font-size: 16px !important;
-      margin-top: 0px !important;
-      margin-bottom: 0px !important;
-      padding: 5px;
-    }
-    div.mediatext{
-      padding: 0px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    }
-    #footer{
-      position: relative;
-      }
+  #KamalKumar {
+    font-size: 5rem;
   }
+  #professor {
+    font-size: 2rem;
+  }
+  body > header > div.top-content > div:nth-child(2) > a > img {
+    width: 90px !important;
+    margin-top: 70px !important;
+    padding: 0px;
+    right: 15px;
+  }
+
+  #Profile {
+    width: auto;
+  }
+  #main-image {
+    width: 95%;
+    height: 400px;
+    margin: 0px;
+  }
+
+  #dropmeow {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+  #dropmeow > ul {
+    width: 200px !important;
+
+    margin: none !important;
+    left: 10px !important;
+  }
+  .two {
+    margin: 0px 30px;
+  }
+  #dropmeow {
+    left: -39px;
+  }
+  #droppers {
+    padding: 10px;
+    font-size: 12px !important;
+  }
+  #NavButtonsContainer > label {
+    font-size: 9px;
+    width: 100% !important;
+  }
+  #NavButtonsContainer.sticky {
+    padding: 1px;
+  }
+  .NavDividers {
+    font-size: 100px;
+    font-weight: 100 !important;
+  }
+
+  #navbuts {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  #footlogos div a img {
+    width: 32px;
+  }
+
+  #spotlight-head > p {
+    font-size: 24px;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  html {
+    width: 100%;
+  }
+
+  #footlogos {
+    justify-content: center;
+  }
+  #footer > div {
+    width: 95%;
+  }
+  #logos {
+    justify-self: center !important;
+    width: 20rem !important;
+    margin-left: 15% !important;
+  }
+  .logoimg {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  #footlogos {
+    width: 100%;
+  }
+
+  /*-------------------media-----------------------*/
+  .Media {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto !important;
+
+    width: 100%;
+  }
+  .mediachild {
+    display: flex;
+    justify-content: start;
+    column-gap: 0px !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+  }
+  .mediachild > img {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .mediatext {
+    position: absolute;
+    width: 70%;
+    margin-top: 0px !important;
+    padding: 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .text {
+    font-size: 16px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 5px;
+  }
+  div.mediatext {
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  #footer {
+    position: relative;
+  }
+}
+/* div {
+  border: 1px solid black;
+} */
+
+.ChildBox {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  margin: auto;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.slideshow {
+  max-width: 55%;
+  padding: 10px;
+}
+.Info {
+  min-width: 35%;
+  max-width: 35%;
+  padding: 50px;
+  background-color: whitesmoke;
+}
+
+#bannerimg {
+  width: 100%;
+  object-fit: cover;
+}
+.item {
+  height: 420px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+#banner {
+  padding: 5px;
+  width: 98%;
+  margin: 0px;
+}
+p {
+  font-size: 18px;
+}
+/*-----------media queries-----------*/
+@media all and (min-width: 320px) and (max-width: 809px) {
+  body > center > h1 {
+    font-size: 29px;
+  }
+  body > header > div.top-content > a > img {
+    width: 99px !important;
+    margin-top: 63px;
+    right: 10px;
+  }
+  .landing-divs {
+    display: none;
+  }
+  .ChildBox {
+    flex-direction: column;
+    padding: 20px;
+    min-height: 400px;
+  }
+  #slideshow {
+    height: 200px;
+    width: 100%;
+  }
+  #banner {
+    height: 200px;
+    width: 100%;
+  }
+  .container,
+  .item {
+    height: 200px;
+    width: 100%;
+  }
+  div.item.active {
+    height: 200px;
+  }
+  div.Info {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 9px;
+    padding-top: 15px;
+  }
+  .para {
+    font-size: 14px;
+  }
+  .slideshow {
+    max-width: 100% !important;
+  }
+}
