@@ -39,7 +39,7 @@
   #Members {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
+    gap: 0px !important;
   }
   #teams {
     padding: 30px 2px;
