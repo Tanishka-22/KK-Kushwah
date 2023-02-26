@@ -39,7 +39,7 @@
   #Members {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 0px;
   }
   #teams {
     padding: 30px 2px;
@@ -47,6 +47,9 @@
   .name {
     position: static;
     width: 100%;
+  }
+  div.teampic{
+    margin-left: 3.5px;
   }
   #submit-button {
     padding: 10px 5px;
@@ -56,6 +59,7 @@
   }
   .teampic {
     width: 100%;
+    margin-right: 0px;
   }
   #dropmeow {
     width: 20px;
