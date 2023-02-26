@@ -1,12 +1,15 @@
 @media all and (min-width: 320px) and (max-width: 809px) {
   #KamalKumar {
-    font-size: 5rem;
+    font-size: 4.5rem;
+  }
+  div,section{
+     border: 1px solid black;
   }
   #professor {
     font-size: 2rem;
   }
   body > header > div.top-content > div:nth-child(2) > a > img {
-    width: 98px;
+    width: 96px !important;
   }
   .connectsection {
     flex-direction: column;
@@ -20,12 +23,14 @@
     margin: 0px;
   }
   #letusconnect {
-    font-size: 73px;
+    font-size: 65px;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
   }
   #email {
-    width: 158%;
+    width: 134.4%;
   }
 
   textarea {
