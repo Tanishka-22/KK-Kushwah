@@ -2,6 +2,11 @@
   #KamalKumar {
     font-size: 5rem;
   }
+  body {
+    background-image: url("pictures/istockphoto-16.jpg") !important;
+    background-size: 100% 54.2% !important;
+    background-repeat: no-repeat;
+  }
   #professor {
     font-size: 2rem;
   }
