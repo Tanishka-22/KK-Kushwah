@@ -8,7 +8,7 @@ const inter = [
       status: "Awarded",
     },
     {
-      name: "Ms.Panveen Ansari",
+      name: "Ms.Parveen Ansari",
       status: "Persuing",
     },
     {
