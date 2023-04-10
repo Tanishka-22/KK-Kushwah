@@ -1,6 +1,24 @@
 const inter = [
   {
     title:
+      "A paper-based colourimetric sensor for sodium sulfite detection in beverages",
+    link: "https://link.springer.com/article/10.1007/s11694-023-01929-1",
+    author:
+      "Kamal Kumar Kushwah, Surya Devarajan, Mizaj Shabil Sha, Mithra Geetha, Johaina Khalid Alahmad, Mohammed Shoaib Taufeeq Shaikh, Suresh Muthusamy, Kishor Kumar Sadasivuni ",
+    internationaljournal: "SPRINGER Journal of Food Measurement and Characterization",
+    yearofpublication: "April 2023 ",
+  },
+  {
+    title:
+      "Temperature-dependent study of the fabricated ZnS/p-Si heterojunction",
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0921452623001989?via%3Dihub",
+    author:
+      "Kamal Kumar Kushwah, Suhaas Gupt, Arun Kumar , Samrat Mukherjee , Sujeet Kumar Mahobia , Pragati Patharia, Anil Kushwaha , Deepak Yadav, Umesh Kumar Dwivedi , Sunil Kumar, Ravi Kant Choubey ",
+    internationaljournal: "ScienceDirect Physica B: Condensed Matter",
+    yearofpublication: "March 2023 ",
+  },
+  {
+    title:
       "Design and Analyses of Xcos Stimulation Model for On-Axis Planar Unmodulator Radiation",
     link: "https://ieeexplore.ieee.org/abstract/document/9961150/",
     author:
