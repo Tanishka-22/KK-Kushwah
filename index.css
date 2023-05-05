@@ -9,7 +9,7 @@
 }---*/
 body {
   background-image: url("istockphoto-16.jpg") !important;
-  background-size: 100% 78.9% !important;
+  background-size: 100% 84% !important;
   background-repeat: no-repeat;
 }
 #hr {
@@ -338,7 +338,7 @@ ul {
 
 #connect {
   margin: auto;
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
   background: rgba(20, 75, 131, 0.559);
   min-height: 200px;
   width: 100%;
@@ -399,7 +399,9 @@ ul {
 /* -----------------------------------------find here-------------------------------------------------- */
 #logo-pics {
   background-color: #fafafa;
+  margin-top: 0px !important;
 }
+
 .press-logo {
   width: 20%;
   margin: 5px 20px;
