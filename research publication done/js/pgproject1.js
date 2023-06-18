@@ -1,49 +1,58 @@
-const person = [{
-    titleofthesis: "Experimental Design of FM Transmitter",
-    nameofstudent: "Arpita Vyas,Shikha Trivedi",
-    duration: "2008",
-},
-{
-    titleofthesis: "Bi Directional 3 Digit Visitor Coiunter",
-    nameofstudent: "Amreen Khan",
-    duration: "2013",
-},
-{
-    titleofthesis: "Laser Procted Fence",
-    nameofstudent: "Satendra Singh",
-    duration: "2014",
-},
-{
-    titleofthesis: "Magnetic Levitation",
-    nameofstudent: "Monalisha Kashyap",
-    duration: "2015",
-},
-{
-    titleofthesis: "Digital Experiment Kit",
-    nameofstudent: "Yash Choudhary",
-    duration: "2015",
-},
-
-{
-    titleofthesis: "Excitation of ZnS Nanoparticles under UV Excitation",
-    nameofstudent: "Bhagvati Kumahar and Lata Lalwani",
-    duration: "2017",
-},
-{
-    titleofthesis: "Semiconductor Devices",
-    nameofstudent: "Mueen",
-    duration: "2021",
-},
-{
-    titleofthesis: "Planck's Constant Kit",
-    nameofstudent: "Bhawana Tiwari",
-    duration: "2022",
-},
-{
-    titleofthesis: "Logic Gate Kit",
-    nameofstudent: "Khusboo Agrawal",
-    duration: "2022",
-},
+const person = [ {
+        titleofthesis: "Design of UV Excitation Chamber",
+        nameofstudent: "Ramdin Verma",
+        duration: "2023",
+    },
+    {
+        titleofthesis: "Quantum Computing",
+        nameofstudent: "Manish Kushwaha",
+        duration: "2023",
+    },
+    {
+        titleofthesis: "Study of highly Luminescent Transparent Nano films", 
+        nameofstudent: "Anushikha Dwivedi",
+        duration: "2023",
+    },
+    {
+        titleofthesis: "Logic Gate Kit",
+        nameofstudent: "Khusboo Agrawal",
+        duration: "2022",
+    },
+    {
+        titleofthesis: "Planck's Constant Kit",
+        nameofstudent: "Bhawana Tiwari",
+        duration: "2022",
+    },
+    {
+        titleofthesis: "Semiconductor Devices",
+        nameofstudent: "Mueen",
+        duration: "2021",
+    },
+    {
+        titleofthesis: "Excitation of ZnS Nanoparticles under UV Excitation",
+        nameofstudent: "Bhagvati Kumahar and Lata Lalwani",
+        duration: "2017",
+    },
+    {
+        titleofthesis: "Digital Experiment Kit",
+        nameofstudent: "Yash Choudhary",
+        duration: "2015",
+    },
+    {
+        titleofthesis: "Magnetic Levitation",
+        nameofstudent: "Monalisha Kashyap",
+        duration: "2015",
+    },
+    {
+        titleofthesis: "Laser Procted Fence",
+        nameofstudent: "Satendra Singh",
+        duration: "2014",
+    },
+    {
+        titleofthesis: "Bi Directional 3 Digit Visitor Coiunter",
+        nameofstudent: "Amreen Khan",
+        duration: "2013",
+    },
 ];
 var data;
 
