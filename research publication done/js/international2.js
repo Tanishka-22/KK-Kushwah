@@ -1,6 +1,27 @@
 const inter = [
   {
     title:
+      "Opto-mechanical studies of PVA-capped ZnSe and CdSe
+nanoparticles for optoelectronic applications",
+    link: "https://link.springer.com/article/10.1007/s12034-023-03122-y",
+    author:
+      "Parveen Ansari, Kamal Kumar Kushwah, Muni Raj Maurya, Mithra Geetha, Kishor Kumar Sadasivuni, Hussain Jeevakhan, Shilpi Jindal And Meera Ramrakhaini",
+    internationaljournal: "SPRINGER Bulletin of Materials Science",
+    yearofpublication: "February 2024 SCI Impact Factor 1.8 ",
+  },
+    {
+    title:
+      "Experimental Investigation on Synthesis and Characterization of Self-Cleaning
+Modified Super Hydrophobic Nano-Sio2 Coating for Solar Photovoltaic
+Applications: Effects of HDTMS and TEA ",
+    link: "..../IJEMS%2030(4)%20588-596.pdf",
+    author:
+      "Abhineet Samadhiyaa, Pradeep Kumar Jhinge, Kamal Kumar Kushwah",
+    internationaljournal: "Indian Journal of Engineering & Materials Sciences ",
+    yearofpublication: "August 2023 SCI Impact Factor 0.9 ",
+  },
+  {
+    title:
       "A paper-based colourimetric sensor for sodium sulfite detection in beverages",
     link: "https://link.springer.com/article/10.1007/s11694-023-01929-1",
     author:
