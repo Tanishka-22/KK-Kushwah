@@ -1,4 +1,15 @@
-const person = [{
+const person = [
+     
+      {
+        title: "Faults Diagnosis Using AI and ML",
+        link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003301820-1/faults-diagnosis-using-ai-ml-hameed-khan-kamal-kumar-kushwah-pradeep-kumar-jhinge-gireesh-gaurav-soni-ravi-kant-choubey-rupesh-kushwah",
+        author:
+        "Hameed Khan, Kamal Kumar Kushwah, Pradeep Kumar Jhinge, Gireesh Gaurav Soni, Ravi Kant Choubey, Rupesh Kushwah",
+        bookname: "Artificial Intelligence Techniques in Power Systems Operations and Analysis",
+        publisher: "Auerbach Publications",
+        vol: "",
+    },   
+{
     title: "Machine Learning in Additive Manufacturing",
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527835478.ch21",
     author: "Hameed Khan, Kamal Kumar Kushwah, Saurabh Singh, Jitendra S. Thakur, Kishore Kumar Sadasivuni",

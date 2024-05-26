@@ -1,6 +1,61 @@
 const inter = [
   {
     title:
+      "Off-axis spectrum and small signal gain of dual harmonic planar undulator",
+    link: "https://www.sciencedirect.com/science/article/pii/S0969806X24002627",
+    author:
+      "Mahazbeen Sayed, Hussain Jeevakhan, Kamal Kumar Kushwah",
+    internationaljournal: "SCIENCE DIRECT Radiation Physics and Chemistry",
+    yearofpublication: " 2024 SCI Impact Factor 1.8 ",
+  },
+  {
+    title:
+      "Impact of B-site Substitution of Transition Metal (Fe and Mn) on the Structural, Electrical, and Magnetic Properties of Tungsten Bronze Ferroelectric Ceramic",
+    link: "https://link.springer.com/article/10.1007/s11664-024-11083-z",
+    author:
+      " Shristi Chaudhary, Sheela Devi, Shilpi Jindal, Kamal Kumar Kushwah",
+    internationaljournal: "SPRINGER Journal of Electronic Materials",
+    yearofpublication: "April 2024 SCI Impact Factor 1.8 ",
+  },
+  {
+    title:
+      "Opto-mechanical studies of PVA-capped ZnSe and CdSe nanoparticles for optoelectronic applications",
+    link: "https://link.springer.com/article/10.1007/s12034-023-03122-y",
+    author:
+      "Parveen Ansari, Kamal Kumar Kushwah, Muni Raj Maurya, Mithra Geetha, Kishor Kumar Sadasivuni, Hussain Jeevakhan, Shilpi Jindal And Meera Ramrakhaini",
+    internationaljournal: "SPRINGER Bulletin of Materials Science",
+    yearofpublication: "February 2024 SCI Impact Factor 1.8 ",
+  },
+  {
+    title:
+      "Improving Mobile Ad hoc Networks through an investigation of AODV, DSR, and MP-OLSR Routing Protocols",
+    link: "https://publications.eai.eu/index.php/sis/article/view/5686",
+    author:
+      " Hameed Khan, Kamal K Kushwah, Jitendra S Thakur, Gireesh G Soni, Abhishek Tripathi",
+    internationaljournal: "SPRINGER EAI Endorsed Transactions on Scalable Information Systems",
+    yearofpublication: "April 2024 SCI Impact Factor 1.8 ",
+  },
+  {
+    title:
+      "USE of SCILAB BASED Xcos MODELLING FOR CALCULATION OF UNDULATOR RADIATION PARAMETERS",
+    link: "http://scjournal.ius.edu.ba/index.php/scjournal/article/view/10",
+    author:
+      "Hussain Jeevakhan, Mahazbeen Sayed, Kamal Kushwaha",
+    internationaljournal: "Southeast Europe Journal of Soft Computing",
+    yearofpublication: "March 2024 SCI Impact Factor 1.8 ",
+  },
+  
+  {
+    title:
+      "Fabrication of enhanced performance Visible-light photodetector based on Ag/ZnS/p-Si/Ag heterojunction grown by chemical bath deposition",
+    link: "https://www.sciencedirect.com/science/article/pii/S2352492824002320",
+    author:
+      "Arun Kumar, Suhaas Gupta, Samrat Mukherjee, S Gaurav, S Shankar, Kamal Kumar Kushwah, Sujeet Kumar Mahobia, Abhineet Samadhiya, Stuti Tomar, Beer Pal Singh, Yogendra K Gautam, Umesh Kumar Dwivedi, Sunil Kumar, Ravi Kant Choubey",
+    internationaljournal: "SCIENCE DIRECT Materials Today Communications",
+    yearofpublication: "March 2024 SCI Impact Factor 1.8 ",
+  },
+  {
+    title:
       "Opto-mechanical studies of PVA-capped ZnSe and CdSe nanoparticles for optoelectronic applications",
     link: "https://link.springer.com/article/10.1007/s12034-023-03122-y",
     author:

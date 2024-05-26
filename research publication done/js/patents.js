@@ -1,6 +1,24 @@
 const patents = [
   {
     title:
+      "Bird Drinking Trough",
+    link: "...../patent1.pdf",
+    authorapplicant:
+      "Dr. Yogesh Kumar, Dr. Saurabh Kumar Singh, Dr. Kamal Kumar Kushwah, Madhuri Gokhle, Dr. Sujeet Kumar Mahobia, Dr. Sapna",
+    applicationnumber: "161557",
+    status: "Issued on 26/03/2024",
+  },
+  {
+    title:
+      "Bird Drinking Trough",
+    link: "......../2certi-1.pdf",
+    authorapplicant:
+      "Dr. Yogesh Kumar, Dr. Saurabh Kumar Singh, Dr. Kamal Kumar Kushwah, Madhuri Gokhle, Dr. Sujeet Kumar Mahobia, Dr. Sapna",
+    applicationnumber: "161557",
+    status: "Issued on 26/03/2024",
+  },
+  {
+    title:
       "Intelligent Adaptive System and Method Thereof For Household Energy Control and Distribution",
     link: "https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=nS10A1EAAAAJ&cstart=20&pagesize=80&citation_for_view=nS10A1EAAAAJ:RGFaLdJalmkC    ",
     authorapplicant:
