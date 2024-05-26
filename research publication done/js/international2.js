@@ -1,8 +1,7 @@
 const inter = [
   {
     title:
-      "Opto-mechanical studies of PVA-capped ZnSe and CdSe
-nanoparticles for optoelectronic applications",
+      "Opto-mechanical studies of PVA-capped ZnSe and CdSe nanoparticles for optoelectronic applications",
     link: "https://link.springer.com/article/10.1007/s12034-023-03122-y",
     author:
       "Parveen Ansari, Kamal Kumar Kushwah, Muni Raj Maurya, Mithra Geetha, Kishor Kumar Sadasivuni, Hussain Jeevakhan, Shilpi Jindal And Meera Ramrakhaini",
@@ -11,10 +10,8 @@ nanoparticles for optoelectronic applications",
   },
     {
     title:
-      "Experimental Investigation on Synthesis and Characterization of Self-Cleaning
-Modified Super Hydrophobic Nano-Sio2 Coating for Solar Photovoltaic
-Applications: Effects of HDTMS and TEA ",
-    link: "..../IJEMS%2030(4)%20588-596.pdf",
+      "Experimental Investigation on Synthesis and Characterization of Self-Cleaning Modified Super Hydrophobic Nano-Sio2 Coating for Solar Photovoltaic Applications: Effects of HDTMS and TEA ",
+    link: "....../research publication done\js\international2.js",
     author:
       "Abhineet Samadhiyaa, Pradeep Kumar Jhinge, Kamal Kumar Kushwah",
     internationaljournal: "Indian Journal of Engineering & Materials Sciences ",
